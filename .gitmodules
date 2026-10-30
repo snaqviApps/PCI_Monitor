@@ -1,0 +1,6 @@
+[submodule "Pci-Diagnostics"]
+	path = Pci-Diagnostics
+	url = https://github.com/snaqviApps/Pci-Diagnostics.git
+[submodule "PCIDiagnosticsBench"]
+	path = PCIDiagnosticsBench
+	url = https://github.com/snaqviApps/PCIDiagnosticsBench.git
