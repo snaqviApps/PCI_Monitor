@@ -1,4 +1,4 @@
-# 🚀 PCI Monitor
+## <img width="35" height="32" alt="image" src="https://github.com/user-attachments/assets/9df66119-ce5b-4eb7-a46a-8618df504759" /> PCI Monitor
 
 > High-performance, cross-platform hardware diagnostic and telemetry suite built for enterprise Linux and mobile environments.
 
