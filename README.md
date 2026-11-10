@@ -11,7 +11,11 @@
 | ![Native Terminal Output](docs/images/_so_output.png) | ![KMP Desktop UI](docs/images/kmp_desktopApp_ubuntu.png) |
 
 > *The C++ binary executes low-level direct system calls to read raw PCIe telemetry, while the Kotlin Multiplatform desktop app instantly streams, parses, and renders those exact hardware metrics into a reactive UI.*
-
+### 📊 Telemetry Attribute Glossary
+* **Device BDF:** The unique Bus:Device.Function hardware address identifying the PCIe device location on the system bus.
+* **Category:** The functional classification of the hardware controller (e.g., GPU, Network, Bridge, or Storage).
+* **Device Link Width:** The number of active PCIe lanes allocated for data transfer (e.g., x1, x8, x16).
+* **Device Current Speed (GT/s):** The real-time signaling rate and data transfer generation currently negotiated by the link.
 ---
 
 ## 🏗️ Architectural Overview
