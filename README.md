@@ -6,18 +6,32 @@
 
 ## 🚀 Visuals & Demo
 
-| C++ Native Engine (`.so` Terminal Output) | Kotlin Multiplatform Desktop App UI |
-| :---------------------------------------: | :--------------------------------: |
-| ![Native Terminal Output](docs/images/_so_output.png) | ![KMP Desktop UI](docs/images/kmp_desktopApp_ubuntu.png) |
-
-> *The C++ binary executes low-level direct system calls to read raw PCIe telemetry, while the Kotlin Multiplatform desktop app instantly streams, parses, and renders those exact hardware metrics into a reactive UI.*
 
 ### Dual-Mode Differential Analysis Views
 
-| Static Baseline Mode | Dynamic Telemetry Mode |
-| :---: | :---: |
-| ![Static Mode](docs/images/kmp-desktopApp_Linux_static-Mode.png) | ![Dynamic Mode](docs/images/kmp-desktopApp_Linux_Dynamic-Mode.png) |
-| *Static baseline differential profiling comparing instantaneous PCIe metrics against a point-in-time frozen snapshot to flag state shifts.* | *Dynamic telemetry mode evaluating live link speed and width against maximum hardware rated limits (`maxLinkWidth` / max GT/s).* |
+| Static Baseline Mode |
+| :---------------------------------------: |
+| ![Static Mode](docs/images/kmp-desktopApp_Linux_static-Mode.png)
+*Static baseline differential profiling comparing instantaneous PCIe metrics against a point-in-time frozen snapshot to flag state shifts.* |
+
+<br>
+
+| Dynamic Telemetry Mode|
+| :---------------------------------------: |
+|![Dynamic Mode](docs/images/kmp-desktopApp_Linux_Dynamic-Mode.png) |
+*Dynamic telemetry mode evaluating live link speed and width against maximum hardware rated limits (`maxLinkWidth` / max GT/s).* |
+
+<br>
+<br>
+ 
+| C++ Native Engine (`.so` Terminal Output) |
+| :---------------------------------------: |
+| ![Native Terminal Output](docs/images/_so_output.png)|
+*The C++ binary executes low-level direct system calls to read raw PCIe telemetry, while the Kotlin Multiplatform desktop app instantly streams, parses, and renders those exact hardware metrics into a reactive UI.* 
+
+<br>
+<br>
+ 
 
 ### 📊 Telemetry Attribute Glossary
 - **Device BDF:** The unique Bus:Device.Function hardware address identifying the PCIe device location on the system bus.
