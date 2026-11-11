@@ -1,9 +1,10 @@
-## <img width="35" height="32" alt="PCI Monitor Icon" src="https://github.com/user-attachments/assets/9df66119-ce5b-4eb7-a46a-8618df504759" align="absmiddle" style="vertical-align: middle; margin-right: 8px;" /> PCI Monitor
+### <img width="35" height="32" alt="PCI Monitor Icon" src="https://github.com/user-attachments/assets/9df66119-ce5b-4eb7-a46a-8618df504759" align="absmiddle" style="vertical-align: middle; margin-right: 8px;" /> PCI Monitor
 
 > High-performance, cross-platform hardware diagnostic and telemetry suite built for enterprise Linux and mobile environments.
 >
-> - **C++ Native Engine:** Low-level diagnostic core (`libpci_diag.so`) executing direct system calls for high-frequency PCIe hardware telemetry and terminal output.
-> - **KMP Desktop Application:** Modern Compose Multiplatform UI streaming, parsing, and rendering real-time differential hardware diagnostics across desktop platforms.
+> - **C++ Native Core:** Host-level diagnostic engine (`libpci_diag.so`) executing direct system calls on target environments (e.g., Ubuntu Linux) for low-level PCIe telemetry.
+> - **KMP Desktop Application:** Compose Desktop interface rendering real-time differential hardware diagnostics and point-in-time snapshot baselines locally.
+> - **Android Mobile Client (Upcoming):** Lightweight mobile client streaming live hardware telemetry remotely from target host instances.
 ---
 <br>
 
