@@ -1,9 +1,15 @@
 ### <img width="35" height="32" alt="PCI Monitor Icon" src="https://github.com/user-attachments/assets/9df66119-ce5b-4eb7-a46a-8618df504759" align="absmiddle" style="vertical-align: middle; margin-right: 8px;" /> PCI Monitor
 
-| ![PCIe-X8 Slot PinOut ](docs/images/PCI(e)_x8.png)
 > High-performance, cross-platform hardware diagnostic and telemetry suite built for enterprise Linux and mobile environments.
-
 ---
+
+<br>
+
+| PCI(e)-X8 PintOut Reference Diagram|
+| :---------------------------------------: |
+| ![PCIe-X8 Slot PinOut ](docs/images/PCI(e)_x8.png)
+
+<br>
 
 ## 🚀 Visuals & Demo
 
