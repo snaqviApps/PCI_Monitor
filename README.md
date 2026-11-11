@@ -2,17 +2,10 @@
 
 > High-performance, cross-platform hardware diagnostic and telemetry suite built for enterprise Linux and mobile environments.
 ---
-
 <br>
 
-| PCI(e)-X8 PintOut Reference Diagram|
-| :---------------------------------------: |
-| ![PCIe-X8 Slot PinOut ](docs/images/PCI(e)_x8.png)
-
-<br>
 
 ## 🚀 Visuals & Demo
-
 
 ### Dual-Mode Differential Analysis Views
 
@@ -29,7 +22,6 @@
 *Dynamic telemetry mode evaluating live link speed and width against maximum hardware rated limits (`maxLinkWidth` / max GT/s).* |
 
 <br>
-<br>
  
 | C++ Native Engine (`.so` Terminal Output) |
 | :---------------------------------------: |
@@ -37,8 +29,6 @@
 *The C++ binary executes low-level direct system calls to read raw PCIe telemetry, while the Kotlin Multiplatform desktop app instantly streams, parses, and renders those exact hardware metrics into a reactive UI.* 
 
 <br>
-<br>
- 
 
 ### 📊 Telemetry Attribute Glossary
 - **Device BDF:** The unique Bus:Device.Function hardware address identifying the PCIe device location on the system bus.
@@ -47,6 +37,12 @@
 - **Device Current Speed (GT/s):** The real-time signaling rate and data transfer generation currently negotiated by the link.
 
 ---
+<br>
+
+| PCI(e)-X8 PintOut Reference Diagram|
+| :---------------------------------------: |
+| ![PCIe-X8 Slot PinOut ](docs/images/PCI(e)_x8.png)
+<br>
 
 ## 🏗️ Architectural Overview
 
