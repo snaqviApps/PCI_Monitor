@@ -14,7 +14,7 @@ graph TB
             cpp_lib -->|Wraps telemetry| grpc_server
         end
 
-        subgraph Submodule2 ["Submodule 2: pci-kmp-ui"]
+        subgraph Submodule2 ["Submodule2: pci-kmp-ui"]
             direction TB
             kmp_client["KMP UI Core (Compose Multiplatform)"]
             grpc_android_client["gRPC Android Client (Kotlin)"]
@@ -24,7 +24,7 @@ graph TB
     end
 
     %% Network / IPC Transport Layer
-    grpc_android_client ==>|gRPC Stream over TCP/IP (Proto Buffers)| grpc_server
+    grpc_android_client ==>|gRPC Stream over TCP/IP - Proto Buffers| grpc_server
 
     %% Target Hardware & Runtime Environments
     subgraph TargetUbuntu ["Target Environment: Ubuntu Host"]
