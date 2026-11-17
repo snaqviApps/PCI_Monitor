@@ -1,4 +1,3 @@
-```mermaid
 graph TB
     %% Master Repository Container
     subgraph MasterRepo ["Master Repository: PCI-Monitor"]
@@ -24,7 +23,7 @@ graph TB
     end
 
     %% Network / IPC Transport Layer
-    grpc_android_client ==>|gRPC Stream over TCP/IP<br/>(Proto Buffers)| grpc_server
+    grpc_android_client ==>|gRPC Stream over TCP/IP (Proto Buffers)| grpc_server
 
     %% Target Hardware & Runtime Environments
     subgraph TargetUbuntu ["Target Environment: Ubuntu Host"]
