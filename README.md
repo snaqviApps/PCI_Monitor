@@ -1,3 +1,4 @@
+```mermaid
 graph TB
     %% Master Repository Container
     subgraph MasterRepo ["Master Repository: PCI-Monitor"]
