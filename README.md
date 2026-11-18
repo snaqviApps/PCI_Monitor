@@ -98,7 +98,7 @@ graph LR
         end
         subgraph Submodule2 ["Submodule 2: pci-kmp-ui"]
             direction TB
-            kmp_client["KMP UI Core (Compose)"]
+            kmp_client["KMP UI Core"]
             grpc_android_client["gRPC Android Client"]
             grpc_android_client -->|Emits Flow| kmp_client
         end
